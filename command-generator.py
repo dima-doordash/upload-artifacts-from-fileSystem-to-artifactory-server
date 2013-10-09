@@ -1,9 +1,15 @@
 import os
 # this file assumes settings.xml is from where you will run the file generated from this code.
 files=[]
+
+#Begin  User need to fill in following properties
+
 directory = '' # your local directory in m2 format 
 repId="" # repid used in setting.xml for maven to upload
 url="" # url for the repository where you need to upload it to
+
+#End  User need to fill in following properties
+
 
 slashesInDirectory=directory.count('/')
 
