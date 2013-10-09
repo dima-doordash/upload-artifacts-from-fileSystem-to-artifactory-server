@@ -3,6 +3,12 @@ upload-artifacts-from-fileSystem-to-artifactory-server
 
 Generates a shell script that you can use to upload artifacts from your local file system to Artifactory/Nexus artifact server
 
+In case you do not have administrative privilleges on artifact server of your organisation, but have upload/deploy permission, you can use this solution to upload all the artifacts from your local directory(perhaps local cache of ivy,maven or gradle).
+
+Assumption: 
+
+1. This solution expects the directory structure to be in the m2 format.
+2. You want to upload all the artifacts to only one repository 
 
 Steps:
 
